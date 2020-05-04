@@ -1,0 +1,101 @@
+body{
+
+	margin: 0;
+	font-family: ocr a extended, monospace, courier;
+	background-color: black;
+}
+
+header{
+	background-color: #003B00;
+	font-color: #008F11;
+	text-align: center;
+}
+
+h1, h2{
+	font-family: ocr a extended, monospace, courier;
+}
+ 
+header h1{
+	color: white;
+	font-size: 50px;
+} 
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid #0D0208;
+}
+	/* for ain element */
+main{
+	max-width: 800px;
+	margin: 0, auto;
+	padding: 0 20px;
+	color: #008F11;
+
+}
+
+main img{
+	max-width: 800px;
+}
+
+
+h2{font-size: 30px;
+	color: #008F11;
+	margin: 40px 0 10px;
+}
+
+p{
+	font-size: 20px;
+	font-color: white;
+}
+
+a:hover{
+	color: white;
+	background-color: #008F11;
+}
+
+footer{
+	background-color: lime;
+	text-align: center;
+	color: black;
+	padding: auto;
+}
+
+footer a{
+	color: #0D0208;
+}
+
+footer a:hover{
+	opacity: 0.5;
+	background-color: transparent;
+}
+
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+}
+
+/* 
+font-family: ocr a extended, monospace, courier;
+
+Name: Malachite
+Name: Vampire Black
+Hex: #0D0208
+RGB: (13, 2, 8)
+CMYK: 0, 0.846, 0.384, 0.949
+DARK GREEN	
+Name: Dark Green
+Hex: #003B00
+RGB: (0, 59, 0)
+CMYK: 1, 0, 1, 0.768
+ISLAMIC GREEN	
+Name: Islamic Green
+Hex: #008F11
+RGB: (0, 143, 17)
+CMYK: 1, 0, 0.881, 0.439
+MALACHITE	
+Name: Malachite
+Hex: #00FF41
+RGB: (0, 255, 65)
+CMYK: 1, 0, 0.745, 0 */
